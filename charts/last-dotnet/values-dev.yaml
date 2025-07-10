@@ -1,0 +1,5 @@
+replicaCount: 1
+image:
+  repository: registry.arc-center.run/silverkeytech/last-dotnet
+  pullPolicy: IfNotPresent
+  tag: last-dotnet-dev-latest

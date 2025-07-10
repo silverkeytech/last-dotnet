@@ -1,0 +1,10 @@
+replicaCount: 2
+image:
+  repository: registry.arc-center.run/silverkeytech/last-dotnet
+  pullPolicy: IfNotPresent
+  tag: last-dotnet-dev-latest
+
+resources:
+  requests:
+    cpu: 60m
+    memory: 60M
